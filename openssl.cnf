@@ -19,7 +19,7 @@ system_default = crypto_policy
 default_ca      = CA_default            # The default ca section
 
 [ CA_default ]
-dir             = /cert-chain             # Where everything is kept
+dir             = /root/tls             # Where everything is kept
 certs           = $dir/certs            # Where the issued certs are kept
 database        = $dir/index.txt        # database index file.
                                         # several certs with same subject.
