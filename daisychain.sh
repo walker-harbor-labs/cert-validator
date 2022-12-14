@@ -365,7 +365,7 @@ cat certs/cacert.pem intermediate/certs/prod.cacert.pem intermediate/certs/pod1-
 
 ##### Root > Prod > POD2-Prod > Customer-AA
 cat certs/cacert.pem intermediate/certs/prod.cacert.pem intermediate/certs/pod2-Prod.cacert.pem intermediate/certs/customer-aa > intermediate/certs/ca-chain-bundle.cert.pem
-##### Root > Prod > POD2-Prod > Customer-BB
+##### Root > Prod > POD2-Prod > cCstomer-BB
 cat certs/cacert.pem intermediate/certs/prod.cacert.pem intermediate/certs/pod2-Prod.cacert.pem intermediate/certs/customer-bb > intermediate/certs/ca-chain-bundle.cert.pem
 
 # OpenSSL verify Certificate Chain
